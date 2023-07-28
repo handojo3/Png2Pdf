@@ -1,0 +1,128 @@
+body {
+  background-image: url("/Users/ejyh/Desktop/Projects/ImagetoPDF/myapp/src/img2pdf/img2pdf_bg.png");
+}
+.container-mt-5 {
+  max-width: 800px;
+  margin-bottom: 100px;
+  margin-top: 200px;
+  margin-left: 400px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.363);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon1 {
+  width: 70px;
+  height: 70px;
+  position:relative;
+  right: 40px;
+}
+
+.icon2 {
+  width: 70px;
+  height: 70px;
+  position:relative;
+  left: 40px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.row-mt-5 {
+  display:block;
+}
+
+.col-lg-3,
+.col-lg-4,
+.col-lg {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.form-group-mt-5 {
+  text-align: center;
+  position: relative;
+  left: 30px;
+}
+
+.file-input {
+  position: relative;
+  right: 30px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  background-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.file-input input[type='file'] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-input:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+} 
+
+.result {
+  border-radius: 70px;
+  position: relative;
+  top: 10px;
+  left: 300px;
+}
+
+
+
+
+/* Download Button */
+.col-lg {
+  text-align: center;
+}
+
+.btn-pdf {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  background-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-pdf:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.btn-pdf:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-pdf:focus {
+  outline: none;
+}
