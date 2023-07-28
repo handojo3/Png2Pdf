@@ -1,6 +1,6 @@
 # PNG to PDF Converter using React
 
-![App Screenshot](screenshot.png)
+![App Screenshot](img2pdf_bg.png)
 
 This project is a sophisticated PNG to PDF converter built using React. It allows users to upload a PNG image, and with the click of a button, it generates and downloads a PDF version of the image. The application utilizes the popular jsPDF library to handle PDF generation and provides a smooth and user-friendly experience.
 
