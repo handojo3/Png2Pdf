@@ -43,11 +43,3 @@ Follow these simple steps to convert your PNG images to PDF:
 ## Contributing
 
 Contributions to this project are welcome! If you find any issues or have ideas for improvement, feel free to submit a pull request or open an issue.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-*Note: Please ensure that the images you upload do not violate any copyright or licensing restrictions. This application is intended for personal and non-commercial use only.*
